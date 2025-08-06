@@ -7,6 +7,7 @@ import Blogs from "./Pages/Blogs"
 import Contact from "./Pages/Contact"
 import Faq from "./Pages/Faq"
 import Home from "./Pages/Home"
+import Footer from "./Navbar/Footer"
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <Route path="/faq" element={<Faq/>} />
      
     </Routes>
+    <Footer />
     </>
   )
 }
