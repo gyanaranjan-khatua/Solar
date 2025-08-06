@@ -5,13 +5,13 @@ import { Phone, Mail, User, LogIn, Headset } from 'lucide-react'; // Added Heads
 
 function Topnavbar() {
   return (
-    <div className="bg-gradient-to-r from-blue-700 to-indigo-800 text-white text-sm md:text-base py-3 px-4 sm:px-6 lg:px-12 shadow-lg">
+    <div className="bg-gradient-to-r from-green-500 to-green-800 text-white text-sm md:text-base py-3 px-4 sm:px-6 lg:px-12 shadow-lg">
       <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-4">
         
         {/* Left Section: 24/7 Support & Special Offer */}
         <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-xs sm:text-sm font-medium">
           {/* New: 24/7 Support */}
-          <span className="flex items-center space-x-2 text-blue-200 animate-pulse-fast">
+          <span className="flex items-center space-x-2 text-black animate-pulse-fast">
             <Headset size={16} className="text-white" />
             <span className="font-semibold">24/7 Expert Support</span>
           </span>
@@ -24,7 +24,7 @@ function Topnavbar() {
             className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-orange-600 to-yellow-500 rounded-full text-white text-xs sm:text-sm font-semibold 
                        hover:from-green-500 hover:to-teal-600 transition-all duration-300 shadow-md group animate-pop-in"
           >
-            <span>✨ Where Every Journey Begins — Aquilo World Tour LLP!</span>
+            <span>⚡ Lighting Lives with Solar Power – Sasa Solar</span>
             <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
           </a>
         </div>

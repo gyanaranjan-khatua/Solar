@@ -9,6 +9,7 @@ import Faq from "./Pages/Faq"
 import Home from "./Pages/Home"
 
 
+
 function App() {
   
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/blog" element={<Blogs/>} />
       <Route path="/blog/:id" element={<BlogPost/>} />
       <Route path="/faq" element={<Faq/>} />
+     
     </Routes>
     </>
   )

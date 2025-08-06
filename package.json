@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,14 +12,17 @@
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.11",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.536.0",
     "motion": "^12.23.12",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "react-parallax-tilt": "^1.7.304",
     "react-router-dom": "^7.7.1",
     "swiper": "^11.2.10",
+    "tailwind-variants": "^2.1.0",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
